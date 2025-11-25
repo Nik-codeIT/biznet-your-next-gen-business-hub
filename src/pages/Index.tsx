@@ -60,19 +60,19 @@ const Index = () => {
 
             {/* Stats */}
             <div className="mx-auto mt-16 grid max-w-4xl grid-cols-1 gap-8 md:grid-cols-3">
-              <Card className="border-none bg-background/60 backdrop-blur">
+              <Card className="border-none bg-background/60 backdrop-blur animate-slide-up hover:scale-105 transition-transform duration-300">
                 <CardContent className="pt-6 text-center">
                   <div className="mb-2 text-4xl font-bold text-primary">10,000+</div>
                   <div className="text-sm text-muted-foreground">Активных объявлений</div>
                 </CardContent>
               </Card>
-              <Card className="border-none bg-background/60 backdrop-blur">
+              <Card className="border-none bg-background/60 backdrop-blur animate-slide-up hover:scale-105 transition-transform duration-300" style={{ animationDelay: "0.1s" }}>
                 <CardContent className="pt-6 text-center">
                   <div className="mb-2 text-4xl font-bold text-primary">5,000+</div>
                   <div className="text-sm text-muted-foreground">Зарегистрированных компаний</div>
                 </CardContent>
               </Card>
-              <Card className="border-none bg-background/60 backdrop-blur">
+              <Card className="border-none bg-background/60 backdrop-blur animate-slide-up hover:scale-105 transition-transform duration-300" style={{ animationDelay: "0.2s" }}>
                 <CardContent className="pt-6 text-center">
                   <div className="mb-2 text-4xl font-bold text-primary">99.9%</div>
                   <div className="text-sm text-muted-foreground">Время безотказной работы</div>
@@ -95,10 +95,10 @@ const Index = () => {
             </div>
 
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-              <Card className="border-border transition-shadow hover:shadow-lg">
+              <Card className="border-border group animate-fade-in hover:border-primary/50">
                 <CardContent className="pt-6">
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
-                    <Search className="h-6 w-6 text-primary" />
+                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 transition-all duration-300 group-hover:scale-110 group-hover:bg-primary/20">
+                    <Search className="h-6 w-6 text-primary transition-transform duration-300 group-hover:rotate-12" />
                   </div>
                   <h3 className="mb-2 text-xl font-semibold text-foreground">Умный поиск</h3>
                   <p className="text-muted-foreground">
@@ -107,10 +107,10 @@ const Index = () => {
                 </CardContent>
               </Card>
 
-              <Card className="border-border transition-shadow hover:shadow-lg">
+              <Card className="border-border group animate-fade-in hover:border-primary/50" style={{ animationDelay: "0.1s" }}>
                 <CardContent className="pt-6">
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
-                    <Shield className="h-6 w-6 text-primary" />
+                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 transition-all duration-300 group-hover:scale-110 group-hover:bg-primary/20">
+                    <Shield className="h-6 w-6 text-primary transition-transform duration-300 group-hover:rotate-12" />
                   </div>
                   <h3 className="mb-2 text-xl font-semibold text-foreground">Безопасность</h3>
                   <p className="text-muted-foreground">
@@ -119,10 +119,10 @@ const Index = () => {
                 </CardContent>
               </Card>
 
-              <Card className="border-border transition-shadow hover:shadow-lg">
+              <Card className="border-border group animate-fade-in hover:border-primary/50" style={{ animationDelay: "0.2s" }}>
                 <CardContent className="pt-6">
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
-                    <Zap className="h-6 w-6 text-primary" />
+                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 transition-all duration-300 group-hover:scale-110 group-hover:bg-primary/20">
+                    <Zap className="h-6 w-6 text-primary transition-transform duration-300 group-hover:rotate-12" />
                   </div>
                   <h3 className="mb-2 text-xl font-semibold text-foreground">Быстрота</h3>
                   <p className="text-muted-foreground">
@@ -131,10 +131,10 @@ const Index = () => {
                 </CardContent>
               </Card>
 
-              <Card className="border-border transition-shadow hover:shadow-lg">
+              <Card className="border-border group animate-fade-in hover:border-primary/50" style={{ animationDelay: "0.3s" }}>
                 <CardContent className="pt-6">
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
-                    <Building2 className="h-6 w-6 text-primary" />
+                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 transition-all duration-300 group-hover:scale-110 group-hover:bg-primary/20">
+                    <Building2 className="h-6 w-6 text-primary transition-transform duration-300 group-hover:rotate-12" />
                   </div>
                   <h3 className="mb-2 text-xl font-semibold text-foreground">Каталог компаний</h3>
                   <p className="text-muted-foreground">
@@ -143,10 +143,10 @@ const Index = () => {
                 </CardContent>
               </Card>
 
-              <Card className="border-border transition-shadow hover:shadow-lg">
+              <Card className="border-border group animate-fade-in hover:border-primary/50" style={{ animationDelay: "0.4s" }}>
                 <CardContent className="pt-6">
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
-                    <TrendingUp className="h-6 w-6 text-primary" />
+                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 transition-all duration-300 group-hover:scale-110 group-hover:bg-primary/20">
+                    <TrendingUp className="h-6 w-6 text-primary transition-transform duration-300 group-hover:rotate-12" />
                   </div>
                   <h3 className="mb-2 text-xl font-semibold text-foreground">Аналитика</h3>
                   <p className="text-muted-foreground">
@@ -155,10 +155,10 @@ const Index = () => {
                 </CardContent>
               </Card>
 
-              <Card className="border-border transition-shadow hover:shadow-lg">
+              <Card className="border-border group animate-fade-in hover:border-primary/50" style={{ animationDelay: "0.5s" }}>
                 <CardContent className="pt-6">
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
-                    <Users className="h-6 w-6 text-primary" />
+                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 transition-all duration-300 group-hover:scale-110 group-hover:bg-primary/20">
+                    <Users className="h-6 w-6 text-primary transition-transform duration-300 group-hover:rotate-12" />
                   </div>
                   <h3 className="mb-2 text-xl font-semibold text-foreground">Поддержка 24/7</h3>
                   <p className="text-muted-foreground">
