@@ -143,8 +143,12 @@ const Companies = () => {
             </div>
 
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {companies.map((company) => (
-                <Card key={company.id} className="border-border transition-shadow hover:shadow-lg">
+              {companies.map((company, index) => (
+                <Card 
+                  key={company.id} 
+                  className="border-border animate-fade-in hover:border-primary/50" 
+                  style={{ animationDelay: `${index * 0.1}s` }}
+                >
                   <CardHeader>
                     <div className="mb-4 flex items-start justify-between">
                       <Avatar className="h-16 w-16">

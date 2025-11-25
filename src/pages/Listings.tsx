@@ -138,8 +138,12 @@ const Listings = () => {
             </div>
 
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {listings.map((listing) => (
-                <Card key={listing.id} className="border-border transition-shadow hover:shadow-lg">
+              {listings.map((listing, index) => (
+                <Card 
+                  key={listing.id} 
+                  className="border-border animate-fade-in hover:border-primary/50" 
+                  style={{ animationDelay: `${index * 0.1}s` }}
+                >
                   {listing.featured && (
                     <div className="rounded-t-lg bg-gradient-to-r from-primary to-primary-glow px-4 py-1 text-center text-sm font-semibold text-primary-foreground">
                       Рекомендуем
