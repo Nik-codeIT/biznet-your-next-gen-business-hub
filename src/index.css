@@ -18,9 +18,9 @@ All colors MUST be HSL.
     --popover-foreground: 0 0% 10%;
 
     /* Насыщенный синий как основной бренд-цвет */
-    --primary: 217 91% 60%;
+    --primary: 212 100% 50%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 217 91% 70%;
+    --primary-glow: 212 100% 65%;
 
     --secondary: 0 0% 96%;
     --secondary-foreground: 0 0% 10%;
@@ -28,7 +28,7 @@ All colors MUST be HSL.
     --muted: 0 0% 96%;
     --muted-foreground: 0 0% 45%;
 
-    --accent: 217 91% 60%;
+    --accent: 212 100% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
@@ -49,7 +49,7 @@ All colors MUST be HSL.
     --shadow-soft: 0 2px 20px -5px hsl(0 0% 0% / 0.08);
     --shadow-medium: 0 8px 30px -8px hsl(0 0% 0% / 0.12);
     --shadow-hard: 0 20px 60px -15px hsl(0 0% 0% / 0.2);
-    --shadow-glow: 0 0 40px hsl(217 91% 60% / 0.3);
+    --shadow-glow: 0 0 40px hsl(212 100% 50% / 0.3);
 
     /* Анимации */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -66,9 +66,9 @@ All colors MUST be HSL.
     --popover: 0 0% 10%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 217 91% 60%;
+    --primary: 212 100% 50%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 217 91% 70%;
+    --primary-glow: 212 100% 65%;
 
     --secondary: 0 0% 18%;
     --secondary-foreground: 0 0% 98%;
@@ -76,7 +76,7 @@ All colors MUST be HSL.
     --muted: 0 0% 18%;
     --muted-foreground: 0 0% 65%;
 
-    --accent: 217 91% 60%;
+    --accent: 212 100% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 63% 31%;
